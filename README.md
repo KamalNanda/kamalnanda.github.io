@@ -1,1 +1,0 @@
-# kamalnanda.github.io
