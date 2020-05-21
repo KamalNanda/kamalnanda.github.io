@@ -1,0 +1,101 @@
+#work{
+	position: absolute;
+	top: 20vh;
+	z-index: -1
+}
+/*********** Navigator ***********/
+.navigator{
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.navigator-element{
+	padding: 20px 40px;
+	cursor: pointer;
+	animation: moveLeftWork 2s
+}
+.nav-active{
+	background-color: #ff9900;
+	border-radius: 50px
+}
+/********** Work Grid ***********/
+.work-grid{
+	margin-top: 80px;
+	margin-left: 10%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	animation: moveUpAbout 2s
+}
+/********** Work **************/
+.work-photo{
+	width: 100%
+}
+.work-img{
+	position: relative;
+}
+.work-overlay{
+	background-color: #ff9900;
+	color: white;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 0
+}
+.work-overlay h2 {
+	margin-bottom: -10px
+}
+.work-overlay:hover{
+	opacity: 1
+}
+@keyframes moveLeftWork{
+	0%{
+		opacity: 0;
+		transform: translateX(60px);
+	}
+
+	80%{
+		transform: translateX(-10px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@keyframes glow{
+	0%{
+		opacity: 0
+	}
+	100%{
+		opacity: 1
+	}
+}
+@media (max-width: 525px){
+	.work-grid{
+		grid-template-columns: 1fr
+	}
+	.navigator{
+		grid-template-columns: 1fr 1fr !important;
+		margin-left: 0
+	}
+	.navigator-element{
+		padding: 15px 20px;
+	}
+}
+@media (max-width: 992px){
+	.work-grid{
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 80px
+	}
+	.navigator{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin-left: 0;
+	}
+}

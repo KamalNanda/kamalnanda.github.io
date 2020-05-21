@@ -1,0 +1,100 @@
+.navbar{
+	background-color: #2a313a;
+	color: white;
+	width: 80%;
+	position: absolute;
+	right: 0;
+	display: grid;
+	grid-template-columns: repeat(5 , 1fr);
+}
+.navbar-element{
+	padding: 25px;
+	text-align: center;
+	border: 1px gray solid;
+	font-size: 24px;
+	cursor: pointer;
+	font-weight: 700
+}
+.navbar-element a{
+	color: white;
+	text-decoration: none
+}
+.navbar-desktop{
+	display: flex;
+	position: relative;
+}
+.logo{
+	width: 60px;
+	position: absolute;
+	padding: 15px 120px;
+}
+.active{
+	background-color: #ff9900
+}
+.navbar-phone{
+	background-color: #2a313a;
+	width: 100%;
+	position: relative;
+	height: 80px;
+	display: none
+}
+.hamburger-bar{
+	width: 80px;
+	height: 12px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+#hamburger{
+	display: none;
+	padding: 10px 5px 5px 5px;
+	position: absolute;
+	right: 20px
+}
+
+/********** Phone Nav ***********/
+#PhoneNav{
+	height: 100vh;
+	width: 100%;
+	background-color: #2a313a;
+	overflow-y: hidden !important; 
+	display: none;
+}
+@keyframes moveDown{
+	0%{
+		transform: translateY(-100vh);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+@keyframes moveUp{
+	0%{
+		transform: translateY(0vh);
+	}
+	100%{
+		transform: translateY(-100vh);
+	}
+}
+@media(max-width: 992px){
+	.navbar{
+		display: none
+	}
+	.navbar-phone{
+		display: block;
+	}
+	#hamburger{
+		display: block;
+	}
+	#navClose{
+	width: 10%;
+	position: absolute;
+	right: 30px;
+	display: none;
+	top: 20px;
+	}
+	.phone-nav{
+		display: flex;
+		flex-direction: column;
+		margin-top: 40px
+	}
+}

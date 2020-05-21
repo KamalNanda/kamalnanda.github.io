@@ -1,0 +1,10 @@
+body{
+	background-color: #3a6c97;
+	color: white;
+	position: relative;
+	font-weight: 700
+}
+.container{
+	width: 80%;
+	margin-left: 10%
+}
