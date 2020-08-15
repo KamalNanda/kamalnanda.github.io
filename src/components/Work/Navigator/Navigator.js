@@ -25,6 +25,8 @@ class Navigator extends Component{
 				<span id="Personal" className="navigator-element" onClick = {() => this.handleClick('Personal')}>PERSONAL</span>
 				<span id="React" className="navigator-element" onClick = {() => this.handleClick('React')}>REACT.JS</span>
 				<span id="Javascript" className="navigator-element" onClick = {() => this.handleClick('Javascript')}>JAVASCRIPT</span>
+				<span id="Photoshop" className="navigator-element" onClick = {() => this.handleClick('Photoshop')}>PHOTOSHOP</span>
+				<span id="UiUx" className="navigator-element" onClick = {() => this.handleClick('UiUx')}>UI/UX DESIGNING</span>
 			</div>
 		)
 	}

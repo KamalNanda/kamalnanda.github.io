@@ -34,6 +34,14 @@ h1 span{
 		font-size: 46px
 	}
 }
+@media (max-width: 525px){
+
+	.heading-holder{
+		height: 140vh;
+		position: absolute;
+		z-index: -1
+	}
+}
 @keyframes moveLeft{
 	0%{
 		opacity: 0;

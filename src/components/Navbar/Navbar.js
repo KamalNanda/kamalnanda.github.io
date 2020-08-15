@@ -45,6 +45,10 @@ class Navbar extends Component{
 			contact.style.zIndex = "1"
 		},2000)
 	}
+	onResumeClick = () =>
+	{
+		window.open("https://drive.google.com/file/d/1nb6HcqTbt7kPaWqB5dolvuanOKE-eUEx/view" , "_blank")
+	}
 	render(){
 		return(
 			<>
@@ -55,7 +59,7 @@ class Navbar extends Component{
 				<span id="About" className="navbar-element" onClick = {() => this.handleClick('About')}>ABOUT</span>
 				<span id="Work" className="navbar-element" onClick = {() => this.handleClick('Work')} >WORK</span>
 				<span id="Skill" className="navbar-element" onClick = {() => this.handleClick('Skill')}>SKILLS</span>
-				<span className="navbar-element" ><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1nb6HcqTbt7kPaWqB5dolvuanOKE-eUEx/view">RESUME</a></span>
+				<span className="navbar-element" onClick = {() => this.onResumeClick()} >RESUME</span>
 			</div>
 			</div>
 			<div className="navbar-phone">

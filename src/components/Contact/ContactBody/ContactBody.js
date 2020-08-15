@@ -14,7 +14,7 @@ class ContactBody extends Component{
 					</div>
 					<img src="https://ik.imagekit.io/hbj42mvqwv/close_jpFLuKZyl.png" onClick={this.props.onCloseClick} alt="close" className="close"/>
 				</header>
-				<h1 align="center">GET IN TOUCH ON</h1>
+				<h1 align="center" className="cbH">GET IN TOUCH ON</h1>
 				<div className="icon-holder">
 					{
 						data.map((data , index) =>{

@@ -27,6 +27,17 @@
 	border-radius: 20px;
 	margin-bottom: 20px;
 }
+@media (max-width: 525px){
+	#contactBody{
+		width: 90%
+	}
+	.cbH{
+		margin-top: 40px
+	}
+	.contact-header{
+		left: 6% !important
+	}
+}
 .contact-header{
 	font-size: 10px;
 	color: white;

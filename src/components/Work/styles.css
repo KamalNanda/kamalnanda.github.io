@@ -8,8 +8,9 @@
 	width: 80%;
 	margin-left: 10%;
 	text-align: center;
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(5 , 1fr);
+	grid-gap: 20px
 }
 .navigator-element{
 	padding: 20px 40px;
@@ -25,6 +26,7 @@
 	margin-top: 80px;
 	margin-left: 10%;
 	display: grid;
+	grid-gap: 20px;
 	grid-template-columns: 1fr 1fr 1fr;
 	animation: moveUpAbout 2s
 }
@@ -34,6 +36,13 @@
 }
 .work-img{
 	position: relative;
+	border: 4px solid #ff9900;
+	border-radius: 5px;
+	 box-shadow: 10px 10px 5px black;
+}
+.work-img:hover{
+	transform: scale(1.2);
+	z-index: 9
 }
 .work-overlay{
 	background-color: #ff9900;

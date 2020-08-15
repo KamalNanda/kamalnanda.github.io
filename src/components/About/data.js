@@ -1,14 +1,14 @@
 const data = [
 	{
-		value : "13",
+		value : "17",
 		title : "Number of Projects"
 	},
 	{
-		value : "1yr.",
-		title : "Experience"
+		value : "4",
+		title : "No. of Companies I'm associated with"
 	},
 	{
-		value : "100K",
+		value : "100K+",
 		title : "Lines of Code"
 	}
 ]
