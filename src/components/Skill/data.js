@@ -18,15 +18,15 @@ const data = [
 		animation: "meterFill60 2s"
 	},
 	{
-		title : "JEKYLL",
-		imgLink : "https://ik.imagekit.io/hbj42mvqwv/jekyll_nVmoyGyOqJ.png",
+		title : "Flutter",
+		imgLink : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_FkCArkpzh2CoDJSViCmbVHn4V6HYQBYrrmYKiMt8KDSty0FQaASekthpKkHKltPBk7g&usqp=CAU",
 		meter : "70%",
 		animation: "meterFill70 2s"
 	},
 	{
 		title : "REACT.JS",
 		imgLink : "https://ik.imagekit.io/hbj42mvqwv/react_TERYb5yTI.png",
-		meter : "50%",
+		meter : "80%",
 		animation: "meterFill50 2s"
 	},
 	{
