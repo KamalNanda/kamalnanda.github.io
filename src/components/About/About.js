@@ -12,7 +12,7 @@ class About extends Component{
 						<h2>Who is this guy ?</h2>
 					</div>
 					<div className="about-right">
-						<h1>I am Kamal Nanda based in Delhi. I'm persuing BCA from Vivekananda Institute of Professional Studies. I have a good experience in Web Development and can make modern looking, responsive websites.</h1>					
+						<h1>I am Kamal Nanda based in Delhi, currently living in Pune. I am working as a SDE - 1 at <a href="www.unboxrobotics.com">Unbox Robotics</a></h1>					
 						<div className="count-holder">
 							{
 								Data.map(( data , index) => {

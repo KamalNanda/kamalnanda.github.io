@@ -4,11 +4,11 @@ const data = [
 		title : "Number of Projects"
 	},
 	{
-		value : "4",
+		value : "6",
 		title : "No. of Companies I'm associated with"
 	},
 	{
-		value : "100K+",
+		value : "500K+",
 		title : "Lines of Code"
 	}
 ]
